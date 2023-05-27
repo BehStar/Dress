@@ -1,0 +1,224 @@
+/* ======================= */
+.dash-page {
+  display: flex;
+  justify-content: flex-start;
+  height: 500px;
+}
+.menu-in-dash {
+  width: 25%;
+  height: 400px;
+  background-color: var(--light-Blue);
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 10px;
+}
+.menu-in-dash li {
+  width: 100%;
+  height: 40px;
+  padding: 5px 0;
+}
+.menu-in-dash li a,
+.btn-in-menu-dash {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: var(--gray-Color);
+  color: var(--dark-Color);
+}
+.menu-in-dash li a:hover,
+.btn-in-menu-dash:hover {
+  font-size: 1.1rem;
+}
+.menu-in-dash li a:active,
+.btn-in-menu-dash:active {
+  transform: scale(0.9);
+}
+.active-menu-dash {
+  background-color: var(--dark-Color) !important;
+  color: var(--gray-Color) !important;
+  border-radius: 8px;
+}
+
+/* ============================== */
+.sub-comp-dash {
+  width: 72%;
+  height: 400px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--light-Blue);
+}
+.container-sub-com-dash {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+/* ====================================Profile Info */
+.profile-info {
+  width: 100%;
+  height: 330px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.row-info {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+.row-info .title-info {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-info .user-info {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+}
+.address-list {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+.address-list li {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+/* ==================================Address Comp=== */
+.title-address {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title-address h5 {
+  font-size: 2rem;
+}
+.add-address-form {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.add-address-form .address-text {
+  width: 80%;
+  height: 80px;
+  border-radius: 8px;
+  resize: none;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.add-address-form .btn-group-address {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.add-address-form .btn-group-address button {
+  width: 100%;
+  height: 40%;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.3s;
+  background-color: var(--dark-Color);
+  color: var(--gray-Color);
+}
+.add-address-form .btn-group-address button:hover {
+  font-size: 1.1rem;
+}
+.add-address-form .btn-group-address button :active {
+  transform: scale(0.8);
+}
+/* ---- */
+.addresses-list {
+  width: 100%;
+  min-height: 200px;
+  padding: 5px;
+}
+.addresses-list li {
+  width: 100%;
+  height: 40px;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.addresses-list li p {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  padding: 0 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+}
+.icons-address {
+  width: 19.5%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--light-Blue);
+  color: var(--gray-Color);
+  border-radius: 8px;
+}
+.icons-address .edit,
+.icons-address .close {
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.icons-address .edit:hover,
+.icons-address .close:hover {
+  transform: scale(1.2);
+}
+.icons-address .edit:active,
+.icons-address .close:active {
+  transform: scale(0.8);
+}
+/* Reset Password============== */
+.btn-reset-pass {
+  margin-top: 15px;
+  width: 20%;
+  height: 40px;
+  background-color: var(--dark-Color);
+  color: var(--gray-Color);
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn-reset-pass:hover {
+  font-size: 1.1rem;
+}
+.btn-reset-pass:active {
+  transform: scale(0.9);
+}

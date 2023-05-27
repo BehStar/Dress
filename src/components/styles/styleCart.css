@@ -1,0 +1,215 @@
+.row-header-title {
+  width: 100%;
+  height: 50px;
+  background-color: var(--light-Blue);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: var(--gray-Color);
+}
+.row-header-title li {
+  width: 25%;
+  height: 100%;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid var(--gray-Color);
+  font-size: 1.2rem;
+}
+.row-header-title .close-product {
+  width: 5%;
+  height: 100%;
+  /* background-color: red; */
+}
+.row-header-title .name-product,
+.row-header-title .image-product {
+  width: 20%;
+  height: 100%;
+  /* background-color: green; */
+}
+.row-header-title .count-product {
+  width: 15%;
+  height: 100%;
+  /* background-color: red; */
+}
+.row-header-title .each-price-product,
+.row-header-title .total-price-product {
+  width: 20%;
+  height: 100%;
+  /* background-color: blue; */
+}
+/* EACH ITEM LINE TABLE============================= */
+.row-item {
+  width: 100%;
+  height: 50px;
+  background-color: var(--lighter-Brown);
+  color: var(--dark-Color);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid var(--gray-Color);
+}
+.row-item li {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid var(--gray-Color);
+  font-size: 1rem;
+}
+.row-item .close-product {
+  width: 5%;
+  height: 100%;
+  color: var(--red-Color);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.row-item .close-product:hover {
+  font-size: 1.2rem;
+}
+.row-item .close-product:active {
+  font-size: 0.8rem;
+}
+.row-item .name-product,
+.row-item .image-product {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.row-item .image-product img {
+  width: 20%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  cursor: pointer;
+}
+.modal-product-img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+.modal-product-img img {
+  width: 30%;
+  height: 70%;
+  display: block;
+  object-fit: contain;
+}
+.modal-product-img .close-modal {
+  position: fixed;
+  top: 3%;
+  right: 3%;
+  color: var(--gray-Color);
+  font-size: 2rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.modal-product-img .close-modal:hover {
+  font-size: 2.3rem;
+  color: var(--red-Color);
+}
+.modal-product-img .close-modal:active {
+  font-size: 1.8rem;
+  color: var(--red-Color);
+}
+.row-item .name-product .name {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-item .name-product span {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-item .count-product {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.row-item .count-product .box-signs {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.row-item .count-product .box-signs span {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-item .count-product .box-signs span:first-child {
+  border-bottom: 1px solid var(--gray-Color);
+}
+.row-item .count-product .count-num {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.row-item .each-price-product,
+.row-item .total-price-product {
+  width: 20%;
+  height: 100%;
+  /* background-color: blue; */
+}
+/* LAST LINE ITEM================================= */
+.last-line-table {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.last-line-table .title-total {
+  width: 80%;
+  height: 100%;
+  background-color: var(--light-Blue);
+  color: var(--gray-Color);
+  border-bottom-right-radius: 8px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-line-table .price-total {
+  width: 20%;
+  height: 100%;
+  border-bottom-left-radius: 8px;
+  background-color: white;
+  font-size: 1.3rem;
+  color: var(--red-Color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

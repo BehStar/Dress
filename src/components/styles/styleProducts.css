@@ -1,0 +1,143 @@
+/* ------------------------ */
+.row-filter {
+  width: 100%;
+  height: 40px;
+  top: 10px;
+  background-color: white;
+  display: flex;
+}
+.row-filter a {
+  width: 25%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  color: var(--dark-color);
+}
+.row-filter a:hover {
+  color: var(--light-Blue);
+  font-style: italic;
+  font-size: 1.1rem;
+}
+.filterItem {
+  background-color: var(--light-Blue);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: white;
+}
+.fil {
+  top: 100px !important;
+}
+/* --------------- */
+.list-all-products {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+/* Style EachBox */
+.each-box-products {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 1px solid var(--light-Blue);
+  /* padding: 5px; */
+  padding: 0;
+  margin: 10px 0;
+}
+.each-box-products .title-product {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: var(--lighter-Brown);
+  background-color: var(--light-Blue);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.each-box-products .box-img {
+  width: 100%;
+  height: 60%;
+  background-color: var(--gray-Color);
+  overflow: hidden !important;
+}
+.each-box-products .box-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  transition: 0.3s;
+  cursor: auto !important;
+}
+.each-box-products .box-img:hover {
+  transform: scale(1);
+}
+.each-box-products .box-img img:hover {
+  transform: scale(1.02);
+}
+.each-box-products .two-price {
+  width: 100%;
+  height: 15%;
+  background-color: pink;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.each-box-products .two-price .old-price,
+.each-box-products .two-price .new-price {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.each-box-products .tooman {
+  font-size: 1.1rem;
+  padding-right: 3px;
+}
+.each-box-products .two-price .o-price {
+  font-size: 0.9.5rem;
+  text-decoration: line-through;
+  color: red;
+}
+.each-box-products .two-price .n-price {
+  font-size: 1.2rem;
+}
+.each-box-products .one-price {
+  width: 100%;
+  height: 15%;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.each-box-products .one-price .price {
+  font-size: 1.2rem;
+  color: var(--light-Blue);
+}
+.each-box-products .submit {
+  width: 100%;
+  height: 16%;
+  background-color: var(--dark-Color);
+  color: var(--gray-Color);
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  transition: 0.3s;
+}
+.each-box-products .submit:hover {
+  font-size: 1.05rem;
+  background-color: var(--light-Blue);
+  color: var(--dark-color);
+}
+.each-box-products .submit:active {
+  transform: scale(0.9);
+  border-radius: 8px;
+}
